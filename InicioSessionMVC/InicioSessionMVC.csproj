@@ -7,4 +7,8 @@
     <UserSecretsId>4a93d0a5-5298-4366-90fb-b8d2da153056</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Facebook" Version="8.0.15" />
+  </ItemGroup>
+
 </Project>
