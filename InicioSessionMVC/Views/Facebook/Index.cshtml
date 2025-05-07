@@ -1,0 +1,14 @@
+@{
+    ViewData["Title"] = "Iniciar sesión con Facebook";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    Haz clic en el siguiente botón para iniciar sesión con tu cuenta de Facebook.
+</p>
+
+<a asp-controller="Facebook" asp-action="FacebookLogin" class="btn btn-primary">
+    <i class="fab fa-facebook"></i> Iniciar sesión con Facebook
+</a>
+
